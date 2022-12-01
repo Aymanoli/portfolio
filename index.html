@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+<body>
+    <div id="header">
+        <div class="containers first">
+            <nav>
+                <h1 class="name"><i><mark>Kurt </mark> <span>Cobain</i></span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Music bands</a></li>
+                    <li><a href="#protfolio">Songs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <!-- ------------------about----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/kc-about.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Kurt Donald Cobain was an American musician, best known as the lead vocalist, guitarist and primary songwriter of the rock band Nirvana. Through his angst-fueled songwriting and anti-establishment persona, Cobain's compositions widened the thematic conventions of mainstream rock. He was heralded as a spokesman of Generation X and is considered one of the most influential musicians in the history of alternative rock. <a class="about-more" href="https://en.wikipedia.org/wiki/Kurt_Cobain" target="_blank">Wikipedia</a></p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('movie')">Movie</p>
+                        <p class="tab-links" onclick="opentab('award')">Award</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Songwriter</li>
+                            <li>Guiter Technic</li>
+                            <li>Singer</li>
+                            <li>Musician</li>
+                            <li>Visual Artist</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li>Song Writing</li>
+                            <li>Guiter</li>
+                            <li>Grunge</li>
+                            <li>Alternative rock</li>
+                            <li>Punk rock</li>
+                            <li>Hard rock</li>
+                            <li>Opera</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="movie">
+                        <ul>
+                            <li>Unplugged in New York</li>
+                            <li>The Year Punk Broke</li>
+                            <li>Nirvana: Nevermind</li>
+                            <li>Kurt & Courtney</li>
+                            <li>Kurt Cobain: Montage of Heck</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="award">
+                        <ul>
+                            <li>American Music Awards</li>
+                            <li>Best Alternative Music Performance</li>
+                            <li>Grammy Awards</li>
+                            <li>Video of the Year</li>
+                            <li>Viewer's Choice</li>
+                            <li>MTV Video Music Awards</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- ------------slider--------------- -->  
+
+    </div>
+    <div class="slider">
+        <img id="slider-img" src="images/pic-1.jpg" alt="">
+        <p><b>In his suicide note, Cobain wrote:</b> "I have it good, very good, and I'm grateful, but since the age of seven, I've become hateful towards all humans in general. Thank you all from the pit of my burning, nauseous stomach for your letters and concern during the past years. I'm too much of an erratic, moody baby! I don't have the passion anymore, and so remember, it's better to burn out than to fade away."</p>
+     </div>
+    <!-- ---------------band list---------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Music bands</h1>
+            <div class="services-list">
+                <div>
+                    <img class="band" src="images/nirvana.jpg" alt="">
+                    <h2>Nirvana</h2>
+                    <h4>1978 - 1994</h4>
+                    <p>Nirvana was an American rock band formed in Aberdeen, Washington, in 1987. Founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic, the band went through a succession of drummers, most notably Chad Channing, before recruiting Dave Grohl in 1990.</p>
+                    <a href="https://en.wikipedia.org/wiki/Nirvana_(band)" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <img class="bands" src="images/FecalMatter.jpg" alt="">
+                    <h2>Fecal Matter</h2>
+                    <h4>1985 - 1986</h4>
+                    <p>Fecal Matter was a short-lived punk rock band from Aberdeen, Washington. The group was formed in 1985 by Kurt Cobain, the future frontman of Nirvana, along with Dale Crover of the Melvins and drummer Greg Hokanson.</p>
+                    <a href="https://en.wikipedia.org/wiki/Fecal_Matter_(band)" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <img class="band" src="images/BMXBandits1.webp" alt="">
+                    <h2>BMX Bandits</h2>
+                    <p>BMX Bandits are a Scottish guitar pop band formed in Bellshill in 1986. Led by songwriter and lead vocalist Duglas T. Stewart, their music is heavily influenced by 1960s pop.</p>
+                    <a href="https://en.wikipedia.org/wiki/BMX_Bandits_(band)" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------Top Songs list----------------- -->
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title">Songs</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/cayr.jpg" alt="">
+                    <div class="layer">
+                        <h3>Come As You Are</h3>
+                        <p>Come as you are, as you were <br>
+                            As I want you to be <br>
+                            As a friend, as a friend <br>
+                            As an old enemy</p>
+                        <a href="https://www.youtube.com/watch?v=vabnZ9-ex7o" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/aboutagirl.jpg" alt="">
+                    <div class="layer">
+                        <h3>About a Girl</h3>
+                        <p>I'm standing in your line <br>
+                            I do hope you have the time <br>
+                            I do pick a number too <br>
+                            I do keep a date with you</p>
+                        <a href="https://www.youtube.com/watch?v=AhcttcXcRYY" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/allapologies.jpg" alt="">
+                    <div class="layer">
+                        <h3>All Apologies</h3>
+                        <p>I wish I was like you <br>
+                            Easily amused</p>
+                        <a href="https://www.youtube.com/watch?v=aWmkuH1k7uA" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- --------------contact-------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> Contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 01843440013</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a class="btn btn2" href="images/MY_CV.pdf" download="">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="Write Your Message"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                    <spna id="msg"></spna>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="copyright">
+            <p>It is Kurt Cobain's portfolio. Who was the American songwriter & singer.</p>
+        </div>
+    </footer>
+
+    <!-- -------------internal jsvasctipt-------------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of  tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of  tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+        // -----------menubar---------------
+        var sidemenu = document.getElementById('sidemenu');
+
+        function openmenu(){
+            sidemenu.style.right = '0';
+        }
+        function closemenu(){
+            sidemenu.style.right = '-200px';
+        }
+    </script>
+
+    <!-- ---------------External js--------------- -->
+    <script src="js/app.js"></script>
+</body>
+</html>
